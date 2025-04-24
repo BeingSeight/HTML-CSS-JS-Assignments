@@ -1,5 +1,5 @@
 # All HTML+CSS+JS HOMEWORK ASSIGNMENTS:
-# EASY ACCESS LINKS: https://beingseight.github.io/HTML-CSS-JS-Assignments/
+# EASY ACCESS LINKS: [OPEN THIS LINK to Access All Assignments](https://beingseight.github.io/HTML-CSS-JS-Assignments/)
 
 ## Day 2 Homework (Assignment 1) LINK : [DAY 2](https://github.com/BeingSeight/Html-Assignment-1)
 
