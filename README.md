@@ -1,4 +1,5 @@
 # All HTML+CSS+JS HOMEWORK ASSIGNMENTS:
+# EASY ACCESS LINKS:
 
 ## Day 2 Homework (Assignment 1) LINK : https://github.com/BeingSeight/Html-Assignment-1
 
