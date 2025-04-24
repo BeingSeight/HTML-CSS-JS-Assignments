@@ -16,7 +16,7 @@
 
     <h1>Practice Set 1.1:</h1>
     <div class="container">
-        <div style="padding: 10px 30px; background-color: lightblue;">
+        <div style="padding: 10px 30px; background-color: rgb(230, 218, 173);">
             This box has 20px padding on all sides.
         </div>
           
@@ -26,7 +26,7 @@
     <h1>Practice Set 1.2:</h1>
     <div class="container">
         <div class="container">
-            <button style="padding: 25px 40px; background-color: aquamarine; border-radius: 20px; border: 2px solid #008080; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); cursor: pointer;">Click Me</button>
+            <button style="padding: 25px 40px; background-color: rgb(159, 127, 255); border-radius: 20px; border: 2px solid #008080; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); cursor: pointer;">Click Me</button>
         </div>
     </div>
 
@@ -134,11 +134,84 @@
 
     <hr>
 
-
-    <h1>Advanced Yet Visual Concept Practice: Padding vs Margin vs Flex</h1>
-
     <hr>
 
     <h1>Section 1</h1>
+  <h1>Advanced Yet Visual Concept Practice: Padding vs Margin vs Flex</h1>
+  <hr>
+
+  <h2>Section 1: Padding vs Margin</h2>
+  <div class="container" style="display:flex; gap:40px; margin-bottom:20px;">
+    <div>
+      <div class="label">Padding</div>
+      <div class="box with-padding">
+        Inside spacing (padding)<br>
+        pushes content inward
+      </div>
+    </div>
+    <div>
+      <div class="label">Margin</div>
+      <div class="box with-margin">
+        Outside spacing (margin)<br>
+        pushes elements away
+      </div>
+    </div>
+  </div>  <hr>
+
+  <h2>Section 2: Padding + Margin Together</h2>
+  <div style="padding:80px; margin:50px; background:lightcoral; color:white; width:300px; margin-bottom:20px;">
+    Padding gives inner space. <br>
+    Margin gives outer space. <br><br>
+    🧠 Use Dev Tools to see the box model!
+  </div>  <hr>
+
+  <h2>Section 3: Flexbox Behavior</h2>
+  <div style="display:flex; justify-content:space-between; background:#eee; padding:10px; margin-bottom:20px;">
+    <div style="background:lightpink; padding:20px;">Flex Child 1</div>
+    <div style="background:lightblue; padding:20px;">Flex Child 2</div>
+    <div style="background:lightgreen; padding:20px;">Flex Child 3</div>
+  </div>
+  <hr>
+
+  <h2>Key Concepts Summary Table</h2>
+  <table style="width:100%; border-collapse:collapse; margin-bottom:20px;">
+    <tr style="background:#ddd;">
+      <th style="border:1px solid #aaa; padding:10px;">Property</th>
+      <th style="border:1px solid #aaa; padding:10px;">Affects</th>
+      <th style="border:1px solid #aaa; padding:10px;">Moves?</th>
+      <th style="border:1px solid #aaa; padding:10px;">Acts On</th>
+      <th style="border:1px solid #aaa; padding:10px;">Common Use</th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #aaa; padding:10px;">padding</td>
+      <td style="border:1px solid #aaa; padding:10px;">Inner space</td>
+      <td style="border:1px solid #aaa; padding:10px;">Inside the element</td>
+      <td style="border:1px solid #aaa; padding:10px;">Content</td>
+      <td style="border:1px solid #aaa; padding:10px;">Button sizing, spacing inside cards</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #aaa; padding:10px;">margin</td>
+      <td style="border:1px solid #aaa; padding:10px;">Outer space</td>
+      <td style="border:1px solid #aaa; padding:10px;">Around the element</td>
+      <td style="border:1px solid #aaa; padding:10px;">Surrounding area</td>
+      <td style="border:1px solid #aaa; padding:10px;">Pushing items apart, centering blocks</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #aaa; padding:10px;">display: flex</td>
+      <td style="border:1px solid #aaa; padding:10px;">Layout</td>
+      <td style="border:1px solid #aaa; padding:10px;">Item arrangement</td>
+      <td style="border:1px solid #aaa; padding:10px;">Children of container</td>
+      <td style="border:1px solid #aaa; padding:10px;">Responsive layouts</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h2>Bonus: Visual Challenge Task</h2>
+  <div style="display:flex; justify-content:center; align-items:center; height:200px; background:#f1f1f1;">
+    <div style="margin:50px; padding:30px; background:darkslateblue; color:white;">
+      Challenge Box<br>
+      Has both padding & margin <br>
+    </div>
+  </div>
 </body>
 </html>
